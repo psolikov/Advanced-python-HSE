@@ -11,6 +11,7 @@ def fibonacci_n(n):
 
 
 def fibonacci_sequence(n):
+    
     seq = []
     for i in range(1, n + 1):
         seq.append(fibonacci_n(i))
