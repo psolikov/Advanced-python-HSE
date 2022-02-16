@@ -28,7 +28,7 @@ LATEX_FILE_TEMPLATE = \
 
 def generate_latex_from_list(table: list):
     shape = "|" + "c|" * (len(table[0]))
-    content = "".join([" ".join([f"{e} &" for e in row]) + ' \\\\ \n' for row in table])
+    content = "".join([" ".join([f"{e} &" for e in row]) + '\\\\ \n' for row in table])
     return LATEX_FILE_TEMPLATE.substitute({f"{LATEX_FILE_TEMPLATE_TABLE_SHAPE_PLACEHOLDER}": shape,
                                            f"{LATEX_FILE_TEMPLATE_TABLE_CONTENT_PLACEHOLDER}": content})
 
