@@ -1,0 +1,17 @@
+
+--------
+Time summary:
+Threadpool with n_jobs=1 executed in 3.299999999999137e-05
+Processpool with n_jobs=1 executed in 0.008006000000000013
+Threadpool with n_jobs=2 executed in 4.199999999998649e-05
+Processpool with n_jobs=2 executed in 0.00035199999999990794
+Threadpool with n_jobs=3 executed in 5.699999999997374e-05
+Processpool with n_jobs=3 executed in 0.00034800000000001496
+Threadpool with n_jobs=4 executed in 5.8999999999809205e-05
+Processpool with n_jobs=4 executed in 0.00039600000000006297
+Threadpool with n_jobs=5 executed in 5.599999999983396e-05
+Processpool with n_jobs=5 executed in 0.00036799999999992394
+Threadpool with n_jobs=6 executed in 5.599999999983396e-05
+Processpool with n_jobs=6 executed in 0.000408000000000186
+Threadpool with n_jobs=7 executed in 5.3999999999998494e-05
+Processpool with n_jobs=7 executed in 0.0003850000000000797
